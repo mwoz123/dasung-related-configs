@@ -1,0 +1,172 @@
+{
+  "files.autoSave": "afterDelay",
+  "workbench.colorTheme": "High Contrast E Ink",
+  "git.confirmSync": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": false,
+  "editor.scrollBeyondLastLine": false,
+  "vim.hlsearch": true,
+  "keyboard.dispatch": "keyCode",
+  "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "solid",
+  "vim.foldfix": false,
+  "diffEditor.renderSideBySide": true,
+  "window.zoomLevel": -1,
+  "git.autofetch": true,
+  // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/dist/css"
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    },
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    },
+    {
+      "before": [
+        "f"
+      ],
+      "after": [
+        "i"
+      ]
+    },
+    {
+      "before": [
+        "i"
+      ],
+      "after": [
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "j"
+      ],
+      "after": [
+        "h"
+      ]
+    },
+    {
+      "before": [
+        "k"
+      ],
+      "after": [
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "h"
+      ],
+      "after": [
+        "f"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    },
+    {
+      "before": [
+        "f"
+      ],
+      "after": [
+        "i"
+      ]
+    },
+    {
+      "before": [
+        "i"
+      ],
+      "after": [
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "j"
+      ],
+      "after": [
+        "h"
+      ]
+    },
+    {
+      "before": [
+        "k"
+      ],
+      "after": [
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "h"
+      ],
+      "after": [
+        "f"
+      ]
+    },
+    {
+      "before": [
+        "d"
+      ],
+      "after": [
+        "\"",
+        "_",
+        "d"
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "workbench.startupEditor": "newUntitledFile"
+}
