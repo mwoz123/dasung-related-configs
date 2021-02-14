@@ -4,7 +4,7 @@
   "filterLinkHints": false,
   "waitForEnterForFilteredHints": true,
   "hideHud": false,
-  "keyMappings": "# Insert your preferred key mappings here.\nunmap W\nmap w removeTab\nmap W restoreTab\nmap X moveTabToNewWindow\nunmap d\nunmap u\nmap d scrollFullPageDown\nmap u scrollFullPageUp",
+  "keyMappings": "# Insert your preferred key mappings here.\n\nunmap W\nmap w removeTab\nmap W restoreTab\nmap X moveTabToNewWindow\n\nunmap d\nunmap u\nmap d scrollFullPageDown\nmap u scrollFullPageUp\n\nunmap h\nunmap l\nunmap zH\nunmap zL\nmap h scrollToLeft\nmap l scrollToRight\nmap zH scrollLeft\nmap zL scrollRight",
   "linkHintCharacters": "qwertyuiopasdghjkl;zxcvnm,",
   "linkHintNumbers": "0123456789",
   "newTabUrl": "about:newtab",
