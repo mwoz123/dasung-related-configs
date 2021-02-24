@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2021-02-24 10:04:49" build="191012">
+		<key name=".Vanilla" modified="2021-02-24 10:23:58" build="191012">
 			<value name="Language" type="string" data="en"/>
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
@@ -34,8 +34,8 @@
 			<value name="ExtendFontNormalIdx" type="hex" data="01"/>
 			<value name="ExtendFontBoldIdx" type="hex" data="0C"/>
 			<value name="ExtendFontItalicIdx" type="hex" data="0D"/>
-			<value name="CursorTypeActive" type="dword" data="000232c1"/>
-			<value name="CursorTypeInactive" type="dword" data="00823282"/>
+			<value name="CursorTypeActive" type="dword" data="00023282"/>
+			<value name="CursorTypeInactive" type="dword" data="00023283"/>
 			<value name="ClipboardDetectLineEnd" type="hex" data="01"/>
 			<value name="ClipboardBashMargin" type="hex" data="00"/>
 			<value name="ClipboardTrimTrailing" type="hex" data="02"/>
@@ -49,7 +49,7 @@
 			<value name="ClipboardDeleteLeftWord" type="hex" data="01"/>
 			<value name="TrueColorerSupport" type="hex" data="01"/>
 			<value name="VividColors" type="hex" data="01"/>
-			<value name="FadeInactive" type="hex" data="01"/>
+			<value name="FadeInactive" type="hex" data="00"/>
 			<value name="FadeInactiveLow" type="hex" data="00"/>
 			<value name="FadeInactiveHigh" type="hex" data="C8"/>
 			<value name="ConVisible" type="hex" data="00"/>
@@ -124,7 +124,7 @@
 			<value name="bgImageDarker" type="hex" data="FF"/>
 			<value name="bgImageColors" type="dword" data="ffffffff"/>
 			<value name="bgOperation" type="hex" data="00"/>
-			<value name="bgPluginAllowed" type="hex" data="01"/>
+			<value name="bgPluginAllowed" type="hex" data="00"/>
 			<value name="AlphaValue" type="hex" data="FF"/>
 			<value name="AlphaValueSeparate" type="hex" data="00"/>
 			<value name="AlphaValueInactive" type="hex" data="EE"/>
@@ -151,8 +151,8 @@
 			<value name="FocusInChildWindows" type="hex" data="01"/>
 			<value name="HideCaptionAlways" type="hex" data="00"/>
 			<value name="HideCaptionAlwaysFrame" type="hex" data="00"/>
-			<value name="HideCaptionAlwaysDelay" type="ulong" data="2000"/>
-			<value name="HideCaptionAlwaysDisappear" type="ulong" data="2000"/>
+			<value name="HideCaptionAlwaysDelay" type="ulong" data="0"/>
+			<value name="HideCaptionAlwaysDisappear" type="ulong" data="0"/>
 			<value name="DownShowHiddenMessage" type="hex" data="00"/>
 			<value name="DownShowExOnTopMessage" type="hex" data="00"/>
 			<value name="ConsoleFontName" type="string" data="Lucida Console"/>
@@ -213,7 +213,7 @@
 			<value name="SendAltPrintScrn" type="hex" data="00"/>
 			<value name="SendPrintScrn" type="hex" data="00"/>
 			<value name="SendCtrlEsc" type="hex" data="00"/>
-			<value name="Min2Tray" type="hex" data="01"/>
+			<value name="Min2Tray" type="hex" data="00"/>
 			<value name="AlwaysShowTrayIcon" type="hex" data="00"/>
 			<value name="SafeFarClose" type="hex" data="01"/>
 			<value name="SafeFarCloseMacro" type="string" data=""/>
@@ -304,7 +304,7 @@
 			<value name="TabBtnDblClick" type="ulong" data="0"/>
 			<value name="TabsOnTaskBar" type="hex" data="02"/>
 			<value name="TaskBarOverlay" type="hex" data="01"/>
-			<value name="TaskbarProgress" type="hex" data="01"/>
+			<value name="TaskbarProgress" type="hex" data="00"/>
 			<value name="TabCloseMacro" type="string" data=""/>
 			<value name="TabFontFace" type="string" data="Segoe UI"/>
 			<value name="TabFontCharSet" type="ulong" data="0"/>
@@ -376,7 +376,7 @@
 			<value name="PanView.RestoreOnStartup" type="hex" data="00"/>
 			<value name="Update.VerLocation" type="string" data=""/>
 			<value name="Update.CheckOnStartup" type="hex" data="01"/>
-			<value name="Update.CheckHourly" type="hex" data="00"/>
+			<value name="Update.CheckHourly" type="hex" data="01"/>
 			<value name="Update.ConfirmDownload" type="hex" data="01"/>
 			<value name="Update.UseBuilds" type="hex" data="01"/>
 			<value name="Update.InetTool" type="hex" data="00"/>
