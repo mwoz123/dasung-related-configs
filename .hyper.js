@@ -39,7 +39,10 @@ module.exports = {
         // border color (window, tabs)
         borderColor: '#333',
         // custom CSS to embed in the main window
-        css: '',
+        //css: '',
+        css: `.line { //hyperline styles
+          color: green;
+        }`,
         // custom CSS to embed in the terminal window
         termCSS: '',
         // set custom startup directory (must be an absolute path)
@@ -148,6 +151,7 @@ module.exports = {
         'hyper-search',
         'hypernpm',
         'hyperlinks',
+        'hyperminimal', 
         "hyper-white-theme",
         "hyperterm-summon"
     ],
