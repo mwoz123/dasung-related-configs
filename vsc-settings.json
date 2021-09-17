@@ -1,5 +1,5 @@
 {
-  "files.autoSave": "afterDelay",
+  // "files.autoSave": "afterDelay",
   "workbench.colorTheme": "High Contrast E Ink",
   "git.confirmSync": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
@@ -8,17 +8,27 @@
   "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
-  "vim.useCtrlKeys": false,
+  "vim.useCtrlKeys": true,
   "editor.scrollBeyondLastLine": false,
   "vim.hlsearch": true,
   "keyboard.dispatch": "keyCode",
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "solid",
   "vim.foldfix": false,
-  "vim.whichwrap": "b,s,l,h",
   "diffEditor.renderSideBySide": true,
   "window.zoomLevel": -1,
   "git.autofetch": true,
+    "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-s>": false,
+    "<C-w>": false,
+    "<C-b>": false,
+    "<C-q>": false,
+    "<C-c>": false,
+    "<C-x>": false,
+    "<C-v>": false,
+    "<C-f>": false
+  }
   // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "liveSassCompile.settings.formats": [
     {
@@ -57,46 +67,46 @@
         ":nohl"
       ]
     },
-    {
-      "before": [
-        "f"
-      ],
-      "after": [
-        "i"
-      ]
-    },
-    {
-      "before": [
-        "i"
-      ],
-      "after": [
-        "k"
-      ]
-    },
-    {
-      "before": [
-        "j"
-      ],
-      "after": [
-        "h"
-      ]
-    },
-    {
-      "before": [
-        "k"
-      ],
-      "after": [
-        "j"
-      ]
-    },
-    {
-      "before": [
-        "h"
-      ],
-      "after": [
-        "f"
-      ]
-    }
+    // {
+    //   "before": [
+    //     "f"
+    //   ],
+    //   "after": [
+    //     "i"
+    //   ]
+    // },
+    // {
+    //   "before": [
+    //     "i"
+    //   ],
+    //   "after": [
+    //     "k"
+    //   ]
+    // },
+    // {
+    //   "before": [
+    //     "j"
+    //   ],
+    //   "after": [
+    //     "h"
+    //   ]
+    // },
+    // {
+    //   "before": [
+    //     "k"
+    //   ],
+    //   "after": [
+    //     "j"
+    //   ]
+    // },
+    // {
+    //   "before": [
+    //     "h"
+    //   ],
+    //   "after": [
+    //     "f"
+    //   ]
+    // }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
@@ -117,46 +127,46 @@
         ":nohl"
       ]
     },
-    {
-      "before": [
-        "f"
-      ],
-      "after": [
-        "i"
-      ]
-    },
-    {
-      "before": [
-        "i"
-      ],
-      "after": [
-        "k"
-      ]
-    },
-    {
-      "before": [
-        "j"
-      ],
-      "after": [
-        "h"
-      ]
-    },
-    {
-      "before": [
-        "k"
-      ],
-      "after": [
-        "j"
-      ]
-    },
-    {
-      "before": [
-        "h"
-      ],
-      "after": [
-        "f"
-      ]
-    },
+    // {
+    //   "before": [
+    //     "f"
+    //   ],
+    //   "after": [
+    //     "i"
+    //   ]
+    // },
+    // {
+    //   "before": [
+    //     "i"
+    //   ],
+    //   "after": [
+    //     "k"
+    //   ]
+    // },
+    // {
+    //   "before": [
+    //     "j"
+    //   ],
+    //   "after": [
+    //     "h"
+    //   ]
+    // },
+    // {
+    //   "before": [
+    //     "k"
+    //   ],
+    //   "after": [
+    //     "j"
+    //   ]
+    // },
+    // {
+    //   "before": [
+    //     "h"
+    //   ],
+    //   "after": [
+    //     "f"
+    //   ]
+    // },
     {
       "before": [
         "d"
@@ -169,5 +179,15 @@
     }
   ],
   "vim.leader": "<space>",
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "--login"
+  ],
+  "editor.tabSize": 8,
+  "editor.cursorStyle": "line",
+  "editor.insertSpaces": false,
+  "editor.lineNumbers": "on",
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.wordWrap": "off"
 }
