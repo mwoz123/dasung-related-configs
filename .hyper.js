@@ -97,7 +97,7 @@ module.exports = {
         //
         // Cygwin
         // - Example: `C:\\cygwin64\\bin\\bash.exe`
-        shell: '',
+        shell: 'C:\\Program Files\\Git\\bin\\bash.exe',
         // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
         // by default `['--login']` will be used
         shellArgs: ['--login'],
@@ -133,10 +133,9 @@ module.exports = {
         disableAutoUpdates: false,
         // for advanced config flags please refer to https://hyper.is/#cfg
         summon: {
-          hideDock: true,
-          hideOnBlur: true,
-  // hotkey: 'Alt+Super+O',
-      hotkey: 'F10',
+          hideDock: false,
+          hideOnBlur: false,
+          hotkey: 'Ctrl+F12',
 },
     },
     // a list of plugins to fetch and install from npm
@@ -152,7 +151,7 @@ module.exports = {
         'hypernpm',
         'hyperlinks',
         'hyperminimal', 
-        "hyper-white-theme",
+        "hyper-one-light",
         "hyperterm-summon"
     ],
     // in development, you can create a directory under
