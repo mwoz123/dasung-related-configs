@@ -8,17 +8,20 @@
   "vim.easymotion": true,
   "vim.incsearch": true,
   "vim.useSystemClipboard": true,
-  "vim.useCtrlKeys": true,
   "editor.scrollBeyondLastLine": false,
   "vim.hlsearch": true,
+  "editor.cursorBlinking": "solid",
+  "vim.whichwrap": "b,s,l,h",
+  "vim.replaceWithRegister": true,
   "keyboard.dispatch": "keyCode",
   "editor.minimap.enabled": false,
-  "editor.cursorBlinking": "solid",
   "vim.foldfix": false,
-  "diffEditor.renderSideBySide": true,
-  "window.zoomLevel": -1,
   "git.autofetch": true,
-    "vim.handleKeys": {
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  // "sassFormat.indent": 4,
+  "editor.tabSize": 8,
+  "vim.useCtrlKeys": true,
+  "vim.handleKeys": {
     "<C-a>": false,
     "<C-s>": false,
     "<C-w>": false,
@@ -29,7 +32,7 @@
     "<C-v>": false,
     "<C-f>": false
   }
-  // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+
   "liveSassCompile.settings.formats": [
     {
       "format": "expanded",
@@ -91,7 +94,7 @@
     //     "h"
     //   ]
     // },
-    // {
+    {
     //   "before": [
     //     "k"
     //   ],
@@ -105,8 +108,24 @@
     //   ],
     //   "after": [
     //     "f"
-    //   ]
-    // }
+    //   ],
+      //cutless ? 
+     { 
+      "before": ["d"],
+      "after": ["\"", "_", "d"]
+    },
+    {
+      "before": ["c"],
+      "after": ["\"", "_", "c"]
+    },
+    {
+      "before": ["x"],
+      "after": ["\"", "_", "x"]
+    },
+    {
+      "before": ["m"],
+      "after": ["d"]
+    }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
@@ -176,15 +195,61 @@
         "_",
         "d"
       ]
-    }
+    },
+      // vim-cutless implementation?
+      {
+        "before": ["D"],
+        "after": ["\"", "_", "D"]
+      },
+      {
+        "before": ["d"],
+        "after": ["\"", "_", "d"]
+      },
+      {
+        "before": ["d", "d"],
+        "after": ["\"", "_", "d", "d"]
+      },
+      {
+        "before": ["c"],
+        "after": ["\"", "_", "c"]
+      },
+      {
+        "before": ["C"],
+        "after": ["\"", "_", "C"]
+      },
+      {
+        "before": ["c", "c"],
+        "after": ["\"", "_", "c", "c"]
+      },
+      {
+        "before": ["x"],
+        "after": ["\"", "_", "x"]
+      },
+      {
+        "before": ["X"],
+        "after": ["\"", "_", "X"]
+      },
+      // "move"/"cut" remap
+      {
+        "before": ["m"],
+        "after": ["d"]
+      },
+      {
+        "before": ["m", "m"],
+        "after": ["d", "d"]
+      }
   ],
   "vim.leader": "<space>",
   "workbench.startupEditor": "newUntitledFile",
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "terminal.integrated.shellArgs.windows": [
-    "--login"
-  ],
-  "editor.tabSize": 8,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
   "editor.cursorStyle": "line",
   "editor.insertSpaces": false,
   "editor.lineNumbers": "on",
