@@ -146,7 +146,6 @@ module.exports = {
     //   `project#1.0.1`
     plugins: [
         'hypercwd',
-        'hyperline',
         'hyper-search',
         'hypernpm',
         'hyperlinks',
